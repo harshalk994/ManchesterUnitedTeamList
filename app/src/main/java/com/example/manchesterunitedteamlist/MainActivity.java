@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 //make an intent to go to the playerlist activity
-                //Intent intent = new Intent(MainActivity.this, PlayerListActivity.class);
-                //startActivity(intent);
+                Intent i = new Intent(MainActivity.this, PlayerListActivity.class);
+                startActivity(i);
             }
         });
     }
