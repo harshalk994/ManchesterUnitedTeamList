@@ -11,8 +11,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="#CE2008"
+        android:background="#DA020E"
         android:text="Manchester United Squad"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
@@ -22,7 +21,9 @@
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="match_parent"
-        android:layout_height="450dp"
+        android:layout_height="310dp"
+        android:background="#DA020E"
+        android:scaleType="centerInside"
         app:srcCompat="@drawable/manunited" />
 
     <Button
@@ -31,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:background="#CE2008"
+        android:background="#DA020E"
         android:text="Players"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
