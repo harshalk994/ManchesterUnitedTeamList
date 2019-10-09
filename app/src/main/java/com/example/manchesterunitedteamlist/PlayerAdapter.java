@@ -38,11 +38,14 @@ public class PlayerAdapter extends ArrayAdapter<PlayerData> {
         TextView textViewName = view.findViewById(R.id.textView6);
         TextView textViewPosition = view.findViewById(R.id.textView7);
         ImageView imageViewPlayers = view.findViewById(R.id.imageView);
+        ImageView imageCountry = view.findViewById(R.id.imageView5);
+
 
         PlayerData playerData = playerDataList.get(position);
         textViewName.setText(playerData.getName());
         textViewPosition.setText(playerData.getPosition());
         imageViewPlayers.setImageDrawable(myCtx.getResources().getDrawable(playerData.getImage()));
+        imageCountry.setImageDrawable(myCtx.getResources().getDrawable(playerData.getCountry()));
 
         return view;
     }

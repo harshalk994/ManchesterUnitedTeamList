@@ -5,11 +5,21 @@ public class PlayerData {
     private String name;
     private int image;
     private String position;
+    private int country;
 
-    public PlayerData(int image, String name, String position) {
+    public int getCountry() {
+        return country;
+    }
+
+    public void setCountry(int country) {
+        this.country = country;
+    }
+
+    public PlayerData(int image, String name, String position, int country) {
         this.image = image;
         this.name = name;
         this.position = position;
+        this.country = country;
     }
 
     public String getName() {

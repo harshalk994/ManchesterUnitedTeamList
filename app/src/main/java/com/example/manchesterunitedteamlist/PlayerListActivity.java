@@ -34,13 +34,13 @@ public class PlayerListActivity extends AppCompatActivity {
 
         playerDataList = new ArrayList<>();
 
-        playerDataList.add(new PlayerData(R.drawable.degeasquad, "David De Gea", "Goalkeeper"));
-        playerDataList.add(new PlayerData(R.drawable.harrymaguiresquad, "Harry Maguire", "Central Defender"));
-        playerDataList.add(new PlayerData(R.drawable.ashleyyoung, "Ashley Young", "Right Back"));
-        playerDataList.add(new PlayerData(R.drawable.paulpogbasquad, "Paul Pogba", "Central Midfielder"));
-        playerDataList.add(new PlayerData(R.drawable.scottmctominaysquad, "Scott McTominay", "Defensive Midfielder"));
-        playerDataList.add(new PlayerData(R.drawable.anthonymartialsquad, "Anthony Martial", "Right Striker"));
-        playerDataList.add(new PlayerData(R.drawable.marcusrashfordsquad, "Marcus Rashford", "Left Striker"));
+        playerDataList.add(new PlayerData(R.drawable.degeasquad, "David De Gea", "Goalkeeper", R.drawable.spain));
+        playerDataList.add(new PlayerData(R.drawable.harrymaguiresquad, "Harry Maguire", "Central Defender", R.drawable.england));
+        playerDataList.add(new PlayerData(R.drawable.ashleyyoung, "Ashley Young", "Right Back", R.drawable.england));
+        playerDataList.add(new PlayerData(R.drawable.paulpogbasquad, "Paul Pogba", "Central Midfielder", R.drawable.france));
+        playerDataList.add(new PlayerData(R.drawable.scottmctominaysquad, "Scott McTominay", "Defensive Midfielder", R.drawable.scotland));
+        playerDataList.add(new PlayerData(R.drawable.anthonymartialsquad, "Anthony Martial", "Right Striker", R.drawable.france));
+        playerDataList.add(new PlayerData(R.drawable.marcusrashfordsquad, "Marcus Rashford", "Left Striker", R.drawable.england));
 
         PlayerAdapter adapter = new PlayerAdapter(this, R.layout.playerview, playerDataList);
 
