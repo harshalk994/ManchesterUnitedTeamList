@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,31 +23,36 @@ public class PlayerListActivity extends AppCompatActivity {
      String [] playerPositions = {"GK", "CD", "RB", "CDM", "CDM", "RS", "LS"};
      public int [] playerImages = {R.drawable.degeasquad, R.drawable.harrymaguiresquad, R.drawable.ashleyyoung, R.drawable.paulpogbasquad, R.drawable.scottmctominaysquad,
             R.drawable.anthonymartialsquad, R.drawable.marcusrashfordsquad};*/
-    private ListView list = null;
-    private List<PlayerData> playerDataList;
+    private ListView list ;
+   // private ArrayAdapter<PlayerData> adapter = null;
+    private PlayerXMLData data ;
+   // private PlayerAdapter adapter = null;
+   // private ArrayList<PlayerData> players ;
+    List<PlayerData> players;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_player_list);
+        players = new ArrayList<>();
+        data = new PlayerXMLData(getApplicationContext());
+        Log.e("&&&&",Integer.toString(data.getLength()));
 
-        list = findViewById(R.id.listView);
+         for(int i=0; i<data.getLength(); i++){
+             players.add(data.getPlayerData(i));
+            Log.e("***",data.getPlayerData(0).getName());
+       }
+        Log.e("***",data.getPlayerData(0).getName());
 
-        playerDataList = new ArrayList<>();
+        list = (ListView) findViewById(R.id.listView);
 
-        playerDataList.add(new PlayerData(R.drawable.degeasquad, "David De Gea", "Goalkeeper", R.drawable.spain));
-        playerDataList.add(new PlayerData(R.drawable.harrymaguiresquad, "Harry Maguire", "Central Defender", R.drawable.england));
-        playerDataList.add(new PlayerData(R.drawable.ashleyyoung, "Ashley Young", "Right Back", R.drawable.england));
-        playerDataList.add(new PlayerData(R.drawable.paulpogbasquad, "Paul Pogba", "Central Midfielder", R.drawable.france));
-        playerDataList.add(new PlayerData(R.drawable.scottmctominaysquad, "Scott McTominay", "Defensive Midfielder", R.drawable.scotland));
-        playerDataList.add(new PlayerData(R.drawable.anthonymartialsquad, "Anthony Martial", "Right Striker", R.drawable.france));
-        playerDataList.add(new PlayerData(R.drawable.marcusrashfordsquad, "Marcus Rashford", "Left Striker", R.drawable.england));
-
-        PlayerAdapter adapter = new PlayerAdapter(this, R.layout.playerview, playerDataList);
-
-        list.setAdapter(adapter);
+      PlayerAdapter  adapter = new PlayerAdapter(this,R.layout.playerview,players);
         //link the adapter
 
+
+
+        list.setAdapter(adapter);
 
           //simple list implemented below, you can scroll down after entire code you will find the list
 

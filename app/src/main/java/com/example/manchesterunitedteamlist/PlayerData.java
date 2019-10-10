@@ -1,25 +1,22 @@
 package com.example.manchesterunitedteamlist;
 
-public class PlayerData {
+import java.io.Serializable;
 
+public class PlayerData implements Serializable {
+
+    private String id;
     private String name;
-    private int image;
+    private String image;
     private String position;
-    private int country;
+    private String country;
 
-    public int getCountry() {
-        return country;
-    }
 
-    public void setCountry(int country) {
-        this.country = country;
-    }
-
-    public PlayerData(int image, String name, String position, int country) {
+    public PlayerData(String image, String name, String position, String country, String id) {
         this.image = image;
         this.name = name;
         this.position = position;
         this.country = country;
+        this.id = id;
     }
 
     public String getName() {
@@ -30,12 +27,13 @@ public class PlayerData {
         this.name = name;
     }
 
-    public int getImage() {
-        return image;
+
+    public void setImage(String image) {
+        this.image = image;
     }
 
-    public void setImage(int image) {
-        this.image = image;
+    public String getImage() {
+        return image;
     }
 
     public String getPosition() {
@@ -44,5 +42,22 @@ public class PlayerData {
 
     public void setPosition(String position) {
         this.position = position;
+    }
+
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }

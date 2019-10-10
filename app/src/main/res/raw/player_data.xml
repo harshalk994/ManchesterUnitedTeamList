@@ -1,45 +1,52 @@
 <?xml version="1.0"?>
 <manchester_united>
 <player>
-<image>@drawable/degeasquad.jpg</image>
+    <id>degea</id>
+<image>degeasquad.jpg</image>
 <name>David De Gea</name>
 <position>Goalkeeper</position>
-<flagimg>@drawable/spain.jpg</flagimg>
+<flagimg>spain.jpg</flagimg>
 </player>
 <player>
-<image>@drawable/harrymaguiresquad.jpg</image>
+    <id>maguire</id>
+<image>harrymaguiresquad.jpg</image>
 <name>Harry Maguire</name>
 <position>Defender</position>
-<flagimg>@drawable/england.jpg</flagimg>
+<flagimg>england.jpg</flagimg>
 </player>
 <player>
-<image>@drawable/ashleyyoung.jpg</image>
+    <id>young</id>
+    <image>ashleyyoung.jpg</image>
 <name>Ashley Young</name>
 <position>Defender</position>
-<flagimg>@drawable/england.jpg</flagimg>
+<flagimg>england.jpg</flagimg>
 </player>
 <player>
-<image>@drawable/paulpogbasquad.jpg</image>
+    <id>paulpogba</id>
+<image>paulpogbasquad.jpg</image>
 <name>Paul Pogba</name>
 <position>Midfielder</position>
-<flagimg>@drawable/france.jpg</flagimg>
+<flagimg>france.jpg</flagimg>
 </player>
 <player>
-<image>@drawable/scottmctominaysquad.jpg</image>
+    <id>mctominay</id>
+<image>scottmctominaysquad.jpg</image>
 <name>Scott McTominay</name>
 <position>Midfielder</position>
-<flagimg>@drawable/scotland.png</flagimg>
+<flagimg>scotland.png</flagimg>
 </player>
 <player>
-<image>@drawable/anthonymartialsquad.jpg</image>
+    <id>martial</id>
+<image>anthonymartialsquad.jpg</image>
 <name>Anthony Martial</name>
 <position>Forward</position>
-<flagimg>@drawable/france.jpg</flagimg>
+<flagimg>france.jpg</flagimg>
 </player>
 <player>
-<image>@drawable/marcusrashfordsquad.jpg</image>
+    <id>rashford</id>
+<image>marcusrashfordsquad.jpg</image>
 <name>Marcus Rashford</name>
 <position>Forward</position>
-<flagimg>@drawable/england.jpg</flagimg>
+<flagimg>england.jpg</flagimg>
 </player>
 </manchester_united>
