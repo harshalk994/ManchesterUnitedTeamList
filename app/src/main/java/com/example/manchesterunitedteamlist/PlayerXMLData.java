@@ -37,6 +37,18 @@ public class PlayerXMLData {
         NodeList playerPosition = xml.getElementsByTagName("position");
         NodeList playerCountry = xml.getElementsByTagName("flagimg");
         NodeList playerId = xml.getElementsByTagName("id");
+        NodeList imageOfPlayer = xml.getElementsByTagName("imageonclick");
+        NodeList jerseyOfPlayer = xml.getElementsByTagName("jerseyno");
+        NodeList urlOfPlayer = xml.getElementsByTagName("url");
+        NodeList cOfPlayer = xml.getElementsByTagName("birth");
+        NodeList nOfPlayer = xml.getElementsByTagName("nation");
+        NodeList aOfPlayer = xml.getElementsByTagName("age");
+        NodeList dOfPlayer = xml.getElementsByTagName("dob");
+        NodeList plOfPlayer = xml.getElementsByTagName("pld");
+        NodeList apOfPlayer = xml.getElementsByTagName("apps");
+        NodeList gOfPlayer = xml.getElementsByTagName("goals");
+        NodeList kOfPlayer = xml.getElementsByTagName("kit");
+        NodeList bOfPlayer = xml.getElementsByTagName("buy");
 
 
         data = new PlayerData[playerName.getLength()];
@@ -48,9 +60,21 @@ public class PlayerXMLData {
             String position = playerPosition.item(i).getFirstChild().getNodeValue();
             String country = playerCountry.item(i).getFirstChild().getNodeValue();
             String jersey = playerId.item(i).getFirstChild().getNodeValue();
+            String img = imageOfPlayer.item(i).getFirstChild().getNodeValue();
+            String squadno = jerseyOfPlayer.item(i).getFirstChild().getNodeValue();
+            String urlPass = urlOfPlayer.item(i).getFirstChild().getNodeValue();
+            String birth = cOfPlayer.item(i).getFirstChild().getNodeValue();
+            String nation = nOfPlayer.item(i).getFirstChild().getNodeValue();
+            String age = aOfPlayer.item(i).getFirstChild().getNodeValue();
+            String dob = dOfPlayer.item(i).getFirstChild().getNodeValue();
+            String pdebut = plOfPlayer.item(i).getFirstChild().getNodeValue();
+            String appearance = apOfPlayer.item(i).getFirstChild().getNodeValue();
+            String goal = gOfPlayer.item(i).getFirstChild().getNodeValue();
+            String kit = kOfPlayer.item(i).getFirstChild().getNodeValue();
+            String buy = bOfPlayer.item(i).getFirstChild().getNodeValue();
             //int ctry = Integer.valueOf(country);
 
-            data[i] = new PlayerData(image, name, position, country, jersey);
+            data[i] = new PlayerData(image, name, position, country, jersey, img, squadno, urlPass, birth, nation, age, dob, pdebut, appearance, goal, kit, buy);
         }
 
 

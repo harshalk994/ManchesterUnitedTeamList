@@ -3,6 +3,7 @@ package com.example.manchesterunitedteamlist;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -53,6 +54,22 @@ public class PlayerListActivity extends AppCompatActivity {
 
 
         list.setAdapter(adapter);
+
+        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
+                Intent intent = new Intent(PlayerListActivity.this, TestRelative.class);
+                Bundle bundle = new Bundle();
+
+                bundle.putSerializable("data", data.getPlayerData(i));
+
+                intent.putExtras(bundle);
+
+                startActivity(intent);
+
+            }
+        });
 
           //simple list implemented below, you can scroll down after entire code you will find the list
 

@@ -6,6 +6,18 @@
 <name>David De Gea</name>
 <position>Goalkeeper</position>
 <flagimg>spain.jpg</flagimg>
+    <imageonclick>degealeft.png</imageonclick>
+    <jerseyno>1</jerseyno>
+    <url>https://www.youtube.com/watch?v=82Os6JcEOdw</url>
+    <birth>Spain</birth>
+    <nation>Spain</nation>
+    <age>28 years</age>
+    <dob>7 November 1990</dob>
+    <pld>14 August 2011</pld>
+    <apps>283</apps>
+    <goals>0</goals>
+    <kit>degeashirt.jpg</kit>
+    <buy>https://store.manutd.com/stores/manutd/en/product/manchester-united-home-goalkeeper-shirt-2019---20---kids-with-de-gea-1-printing/1069752?categories=football-kits%2Cshop-by-player%2Cde-gea-1</buy>
 </player>
 <player>
     <id>maguire</id>
@@ -13,6 +25,18 @@
 <name>Harry Maguire</name>
 <position>Defender</position>
 <flagimg>england.jpg</flagimg>
+    <imageonclick>maguireleft.png</imageonclick>
+    <jerseyno>5</jerseyno>
+    <url>https://www.youtube.com/watch?v=nOz_z531RNw</url>
+    <birth>England</birth>
+    <nation>England</nation>
+    <age>26 years</age>
+    <dob>5 March 1993</dob>
+    <pld>20 December 2014</pld>
+    <apps>109</apps>
+    <goals>7</goals>
+    <kit>maguirekit.jpg</kit>
+    <buy>https://us.store.manutd.com/youth-adidas-harry-maguire-manchester-united-red-2019/20-home-replica-player-jersey/p-25173743705809+z-9195-1503818709?_ref=p-DLP:m-GRID:i-r6c0:po-18</buy>
 </player>
 <player>
     <id>young</id>
@@ -20,6 +44,18 @@
 <name>Ashley Young</name>
 <position>Defender</position>
 <flagimg>england.jpg</flagimg>
+    <imageonclick>youngleft.png</imageonclick>
+    <jerseyno>18</jerseyno>
+    <url>https://www.youtube.com/watch?v=DVlDxsxYS6g</url>
+    <birth>England</birth>
+    <nation>England</nation>
+    <age>34 years</age>
+    <dob>9 July 1985</dob>
+    <pld>19 August 2016</pld>
+    <apps>363</apps>
+    <goals>48</goals>
+    <kit>youngkit.jpg</kit>
+    <buy>http://www.us.store.manutd.com/Manchester_United_Ashley_Young/Mens_adidas_Ashley_Young_Red_Manchester_United_2019_20_Home_Replica_Player_Jersey</buy>
 </player>
 <player>
     <id>paulpogba</id>
@@ -27,6 +63,18 @@
 <name>Paul Pogba</name>
 <position>Midfielder</position>
 <flagimg>france.jpg</flagimg>
+    <imageonclick>pogbaleft.png</imageonclick>
+    <jerseyno>8</jerseyno>
+    <url>https://www.youtube.com/watch?v=9NzR9nhspHY</url>
+    <birth>France</birth>
+    <nation>France</nation>
+    <age>26 years</age>
+    <dob>15 March 1993</dob>
+    <pld>31 January 2012</pld>
+    <apps>100</apps>
+    <goals>24</goals>
+    <kit>pogbakit.jpg</kit>
+    <buy>https://us.store.manutd.com/mens-adidas-paul-pogba-red-manchester-united-2019/20-home-replica-player-jersey/p-25500681685238+z-9048-4134216665?_ref=p-ALP:m-GRID:i-r0c2:po-2</buy>
 </player>
 <player>
     <id>mctominay</id>
@@ -34,6 +82,18 @@
 <name>Scott McTominay</name>
 <position>Midfielder</position>
 <flagimg>scotland.png</flagimg>
+    <imageonclick>mctominayleft.png</imageonclick>
+    <jerseyno>39</jerseyno>
+    <url>https://www.youtube.com/watch?v=cpgpj5AorMI</url>
+    <birth>England</birth>
+    <nation>Scotland</nation>
+    <age>22 years</age>
+    <dob>8 December 1996</dob>
+    <pld>7 May 2017</pld>
+    <apps>52</apps>
+    <goals>3</goals>
+    <kit>scottkit.jpg</kit>
+    <buy>https://us.store.manutd.com/youth-adidas-scott-mctominay-red-manchester-united-2019/20-home-replica-player-jersey/p-36503958134664+z-9418-2660503622?_ref=p-DLP:m-GRID:i-r6c1:po-19</buy>
 </player>
 <player>
     <id>martial</id>
@@ -41,6 +101,18 @@
 <name>Anthony Martial</name>
 <position>Forward</position>
 <flagimg>france.jpg</flagimg>
+    <imageonclick>martialleft.png</imageonclick>
+    <jerseyno>9</jerseyno>
+    <url>https://www.youtube.com/watch?v=bs8GaP0S0E4</url>
+    <birth>France</birth>
+    <nation>France</nation>
+    <age>23 years</age>
+    <dob>5 December 1995</dob>
+    <pld>12 September 2015</pld>
+    <apps>116</apps>
+    <goals>36</goals>
+    <kit>martialkit.jpg</kit>
+    <buy>https://us.store.manutd.com/youth-adidas-scott-mctominay-red-manchester-united-2019/20-home-replica-player-jersey/p-36503958134664+z-9418-2660503622?_ref=p-DLP:m-GRID:i-r6c1:po-19</buy>
 </player>
 <player>
     <id>rashford</id>
@@ -48,5 +120,17 @@
 <name>Marcus Rashford</name>
 <position>Forward</position>
 <flagimg>england.jpg</flagimg>
+    <imageonclick>rashfordleft.png</imageonclick>
+    <jerseyno>10</jerseyno>
+    <url>https://www.youtube.com/watch?v=MVsMPJM2AjQ</url>
+    <birth>England</birth>
+    <nation>England</nation>
+    <age>21 years</age>
+    <dob>31 October 1997</dob>
+    <pld>28 February 2016</pld>
+    <apps>119</apps>
+    <goals>30</goals>
+    <kit>rashfordkit.jpg</kit>
+    <buy>https://us.store.manutd.com/mens-adidas-marcus-rashford-red-manchester-united-2019/20-home-replica-player-jersey/p-14725181792921+z-9401-3622143815?_ref=p-ALP:m-GRID:i-r0c2:po-2</buy>
 </player>
 </manchester_united>
