@@ -49,6 +49,19 @@ public class PlayerXMLData {
         NodeList gOfPlayer = xml.getElementsByTagName("goals");
         NodeList kOfPlayer = xml.getElementsByTagName("kit");
         NodeList bOfPlayer = xml.getElementsByTagName("buy");
+        NodeList plwin = xml.getElementsByTagName("plc");
+        NodeList pwin = xml.getElementsByTagName("win");
+        NodeList ploss = xml.getElementsByTagName("loss");
+        NodeList pclean = xml.getElementsByTagName("clean");
+        NodeList pog = xml.getElementsByTagName("ogs");
+        NodeList passist = xml.getElementsByTagName("assists");
+        NodeList ppass = xml.getElementsByTagName("passes");
+        NodeList pcross = xml.getElementsByTagName("crosses");
+        NodeList ptball = xml.getElementsByTagName("tballs");
+        NodeList pfoul = xml.getElementsByTagName("fouls");
+        NodeList pyc = xml.getElementsByTagName("yc");
+        NodeList prc = xml.getElementsByTagName("rc");
+
 
 
         data = new PlayerData[playerName.getLength()];
@@ -72,9 +85,23 @@ public class PlayerXMLData {
             String goal = gOfPlayer.item(i).getFirstChild().getNodeValue();
             String kit = kOfPlayer.item(i).getFirstChild().getNodeValue();
             String buy = bOfPlayer.item(i).getFirstChild().getNodeValue();
+            String plwins = plwin.item(i).getFirstChild().getNodeValue();
+            String wins = pwin.item(i).getFirstChild().getNodeValue();
+            String losses = ploss.item(i).getFirstChild().getNodeValue();
+            String cleansheet = pclean.item(i).getFirstChild().getNodeValue();
+            String ogoals = pog.item(i).getFirstChild().getNodeValue();
+            String assists = passist.item(i).getFirstChild().getNodeValue();
+            String passes = ppass.item(i).getFirstChild().getNodeValue();
+            String crosses = pcross.item(i).getFirstChild().getNodeValue();
+            String throughs = ptball.item(i).getFirstChild().getNodeValue();
+            String fouls = pfoul.item(i).getFirstChild().getNodeValue();
+            String yellow = pyc.item(i).getFirstChild().getNodeValue();
+            String red = prc.item(i).getFirstChild().getNodeValue();
             //int ctry = Integer.valueOf(country);
 
-            data[i] = new PlayerData(image, name, position, country, jersey, img, squadno, urlPass, birth, nation, age, dob, pdebut, appearance, goal, kit, buy);
+            data[i] = new PlayerData(image, name, position, country, jersey, img, squadno, urlPass, birth, nation, age,
+                    dob, pdebut, appearance, goal, kit, buy, plwins, wins, losses, cleansheet, ogoals, assists, passes, crosses, throughs,
+                    fouls, yellow, red);
         }
 
 

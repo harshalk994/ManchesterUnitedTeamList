@@ -24,7 +24,7 @@ public class TestRelative extends AppCompatActivity {
 
     private TextView textName, textPosition, textJerseyNo, countryView, nationView, ageView, dobView, pldebutView, appView, goalsView;
     private ImageView imgView, kitView;
-    private Button button, buyButton;
+    private Button button, buyButton, moreInfoButton;
     private PlayerData data;
 
     @Override
@@ -48,10 +48,11 @@ public class TestRelative extends AppCompatActivity {
         goalsView = findViewById(R.id.textView23);
         kitView = findViewById(R.id.imageView6);
         buyButton = findViewById(R.id.button5);
+        moreInfoButton = findViewById(R.id.button4);
 
 
-        Intent intent = getIntent();
-        Bundle bundle = intent.getExtras();
+        final Intent intent = getIntent();
+        final Bundle bundle = intent.getExtras();
 
         data = (PlayerData)bundle.getSerializable("data");
 
@@ -103,6 +104,18 @@ public class TestRelative extends AppCompatActivity {
                 Intent intent2 = new Intent(Intent.ACTION_VIEW, Uri.parse(data.getBuy()));
 
                 startActivity(intent2);
+            }
+        });
+
+        moreInfoButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent3 = new Intent(TestRelative.this, PlayerInfoActivity.class);
+                Bundle bundle1 = new Bundle();
+                bundle1.putSerializable("data", data);
+
+                intent3.putExtras(bundle1);
+                startActivity(intent3);
             }
         });
     }

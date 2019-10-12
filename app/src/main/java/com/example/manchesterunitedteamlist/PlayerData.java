@@ -21,13 +21,29 @@ public class PlayerData implements Serializable {
     private String goals;
     private String kit;
     private String buy;
+    private String champion;
+    private String wins;
+    private String losses;
+    private String cleans;
+    private String og;
+    private String assists;
+    private String passes;
+    private String crosses;
+    private String through;
+    private String fouls;
+    private String yellowc;
+    private String redc;
 
-    public PlayerData(String image, String name, String position, String country, String id, String imageOnClick, String jerseyNo, String url, String cob, String nteam, String age, String dob, String debut, String apps, String goals, String kit, String buy) {
-        this.image = image;
+    public PlayerData(String image, String name,  String position, String country, String id, String imageOnClick,
+                      String jerseyNo, String url, String cob, String nteam, String age, String dob, String debut,
+                      String apps, String goals, String kit, String buy, String champion, String wins, String losses,
+                      String cleans, String og, String assists, String passes, String crosses, String through,
+                      String fouls, String yellowc, String redc) {
+        this.id = id;
         this.name = name;
+        this.image = image;
         this.position = position;
         this.country = country;
-        this.id = id;
         this.imageOnClick = imageOnClick;
         this.jerseyNo = jerseyNo;
         this.url = url;
@@ -40,6 +56,26 @@ public class PlayerData implements Serializable {
         this.goals = goals;
         this.kit = kit;
         this.buy = buy;
+        this.champion = champion;
+        this.wins = wins;
+        this.losses = losses;
+        this.cleans = cleans;
+        this.og = og;
+        this.assists = assists;
+        this.passes = passes;
+        this.crosses = crosses;
+        this.through = through;
+        this.fouls = fouls;
+        this.yellowc = yellowc;
+        this.redc = redc;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -50,13 +86,12 @@ public class PlayerData implements Serializable {
         this.name = name;
     }
 
+    public String getImage() {
+        return image;
+    }
 
     public void setImage(String image) {
         this.image = image;
-    }
-
-    public String getImage() {
-        return image;
     }
 
     public String getPosition() {
@@ -67,21 +102,12 @@ public class PlayerData implements Serializable {
         this.position = position;
     }
 
-
     public String getCountry() {
         return country;
     }
 
     public void setCountry(String country) {
         this.country = country;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 
     public String getImageOnClick() {
@@ -178,5 +204,101 @@ public class PlayerData implements Serializable {
 
     public void setBuy(String buy) {
         this.buy = buy;
+    }
+
+    public String getChampion() {
+        return champion;
+    }
+
+    public void setChampion(String champion) {
+        this.champion = champion;
+    }
+
+    public String getWins() {
+        return wins;
+    }
+
+    public void setWins(String wins) {
+        this.wins = wins;
+    }
+
+    public String getLosses() {
+        return losses;
+    }
+
+    public void setLosses(String losses) {
+        this.losses = losses;
+    }
+
+    public String getCleans() {
+        return cleans;
+    }
+
+    public void setCleans(String cleans) {
+        this.cleans = cleans;
+    }
+
+    public String getOg() {
+        return og;
+    }
+
+    public void setOg(String og) {
+        this.og = og;
+    }
+
+    public String getAssists() {
+        return assists;
+    }
+
+    public void setAssists(String assists) {
+        this.assists = assists;
+    }
+
+    public String getPasses() {
+        return passes;
+    }
+
+    public void setPasses(String passes) {
+        this.passes = passes;
+    }
+
+    public String getCrosses() {
+        return crosses;
+    }
+
+    public void setCrosses(String crosses) {
+        this.crosses = crosses;
+    }
+
+    public String getThrough() {
+        return through;
+    }
+
+    public void setThrough(String through) {
+        this.through = through;
+    }
+
+    public String getFouls() {
+        return fouls;
+    }
+
+    public void setFouls(String fouls) {
+        this.fouls = fouls;
+    }
+
+    public String getYellowc() {
+        return yellowc;
+    }
+
+    public void setYellowc(String yellowc) {
+        this.yellowc = yellowc;
+    }
+
+    public String getRedc() {
+        return redc;
+    }
+
+    public void setRedc(String redc) {
+        this.redc = redc;
     }
 }
