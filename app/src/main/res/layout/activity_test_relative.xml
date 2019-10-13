@@ -7,25 +7,64 @@
     android:background="#FFFFFF"
     tools:context=".TestRelative">
 
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DF1F22"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="7dp"
+        app:srcCompat="@drawable/adidas" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/imageView8"
+        android:foregroundGravity="center_vertical|center|center_horizontal"
+        app:srcCompat="@drawable/manunitedlogo" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="100dp"
+        android:layout_height="49dp"
+        android:layout_toRightOf="@id/imageView9"
+        app:srcCompat="@drawable/aon" />
+
     <Button
         android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
         android:layout_below="@id/imageView6"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="#DF1F22"
         android:gravity="center"
-        android:text="Buy Now" />
+        android:text="Buy Now"
+        android:textAlignment="center"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
         android:layout_below="@id/button2"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp"
         android:layout_toRightOf="@id/imageView2"
-        android:text="More Info"
-        android:textSize="15sp" />
+        android:background="#DF1F22"
+        android:text="Stats"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView24"
@@ -182,22 +221,11 @@
         android:textColor="#000000"
         android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#DA020E"
-        android:text="Manchester United Squad"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="30sp"
-        android:textStyle="bold" />
-
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="200dp"
         android:layout_height="230dp"
-        android:layout_below="@id/textView9"
+        android:layout_below="@id/textView52"
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
@@ -208,12 +236,12 @@
         android:id="@+id/textView8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textView9"
+        android:layout_below="@id/textView52"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
         android:layout_toRightOf="@id/imageView2"
         android:text="TextView"
-        android:textColor="#A9A9A9"
+        android:textColor="#000000"
         android:textSize="22sp"
         android:textStyle="bold" />
 
@@ -226,7 +254,7 @@
         android:layout_marginTop="10dp"
         android:layout_toRightOf="@id/imageView2"
         android:text="TextView"
-        android:textColor="#A9A9A9"
+        android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -239,19 +267,22 @@
         android:layout_marginTop="10dp"
         android:layout_toRightOf="@id/imageView2"
         android:text="TextView"
-        android:textColor="#A9A9A9"
-        android:textSize="18sp" />
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
         android:layout_below="@id/textView4"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp"
         android:layout_toRightOf="@id/imageView2"
+        android:background="#DF1F22"
         android:text="Play Video"
-        android:textSize="15sp" />
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView5"
@@ -261,6 +292,7 @@
         android:gravity="center"
         android:text="Personal Information"
         android:textColor="#000000"
+        android:background="@drawable/back"
         android:textSize="25sp"
         android:textStyle="bold" />
 

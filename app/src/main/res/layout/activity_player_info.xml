@@ -8,6 +8,39 @@
     tools:context=".PlayerInfoActivity">
 
     <TextView
+        android:id="@+id/textView51"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DF1F22"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="7dp"
+        app:srcCompat="@drawable/adidas" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/imageView11"
+        android:foregroundGravity="center_vertical|center|center_horizontal"
+        app:srcCompat="@drawable/manunitedlogo" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="100dp"
+        android:layout_height="49dp"
+        android:layout_toRightOf="@id/imageView12"
+        app:srcCompat="@drawable/aon" />
+
+    <TextView
         android:id="@+id/textView50"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -298,6 +331,7 @@
         android:id="@+id/imageView7"
         android:layout_width="match_parent"
         android:layout_height="220dp"
+        android:layout_below="@id/textView51"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -309,5 +343,22 @@
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView49"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#DF1F22"
+        android:gravity="center"
+        android:text="More Info"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textStyle="bold" />
 </RelativeLayout>

@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.manchesterunitedteamlist">
 
-    <uses-permission android:name="android.permission.INTERNETR" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".PlayerInfoActivity"></activity>
+        <activity android:name=".WebViewActivity"></activity>
+        <activity android:name=".PlayerInfoActivity" />
         <activity android:name=".TestRelative" />
         <activity android:name=".SplashScreenActivity">
             <intent-filter>

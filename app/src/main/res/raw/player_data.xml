@@ -17,7 +17,7 @@
     <apps>283</apps>
     <goals>0</goals>
     <kit>degeashirt.jpg</kit>
-    <buy>https://store.manutd.com/stores/manutd/en/product/manchester-united-home-goalkeeper-shirt-2019---20---kids-with-de-gea-1-printing/1069752?categories=football-kits%2Cshop-by-player%2Cde-gea-1</buy>
+    <buy>https://store.manutd.com/stores/manutd/en/product/manchester-united-home-goalkeeper-shirt-2019---20-with-de-gea-1-printing/1069751?categories=football-kits%2Cshop-by-player%2Cde-gea-1</buy>
     <plc>1</plc>
     <win>20</win>
     <loss>5</loss>
@@ -30,6 +30,7 @@
     <fouls>3</fouls>
     <yc>5</yc>
     <rc>0</rc>
+    <weburl>https://www.manutd.com/en/players-and-staff/detail/david-de-gea</weburl>
 </player>
 <player>
     <id>maguire</id>
@@ -48,7 +49,7 @@
     <apps>109</apps>
     <goals>7</goals>
     <kit>maguirekit.jpg</kit>
-    <buy>https://us.store.manutd.com/youth-adidas-harry-maguire-manchester-united-red-2019/20-home-replica-player-jersey/p-25173743705809+z-9195-1503818709?_ref=p-DLP:m-GRID:i-r6c0:po-18</buy>
+    <buy>https://store.manutd.com/stores/manutd/en/product/manchester-united-home-shirt-2019---20-with-maguire-5-printing/1077458?categories=football-kits%2Cshop-by-player%2Cmaguire-5</buy>
     <plc>1</plc>
     <win>10</win>
     <loss>2</loss>
@@ -61,6 +62,7 @@
     <fouls>3</fouls>
     <yc>5</yc>
     <rc>0</rc>
+    <weburl>https://www.manutd.com/en/players-and-staff/detail/harry-maguire</weburl>
 </player>
 <player>
     <id>young</id>
@@ -79,7 +81,7 @@
     <apps>363</apps>
     <goals>48</goals>
     <kit>youngkit.jpg</kit>
-    <buy>http://www.us.store.manutd.com/Manchester_United_Ashley_Young/Mens_adidas_Ashley_Young_Red_Manchester_United_2019_20_Home_Replica_Player_Jersey</buy>
+    <buy>https://store.manutd.com/stores/manutd/en/product/manchester-united-home-shirt-2019---20-with-young-18-printing/1069794?categories=football-kits%2Cshop-by-player%2Cyoung-18</buy>
     <plc>1</plc>
     <win>20</win>
     <loss>5</loss>
@@ -92,6 +94,7 @@
     <fouls>3</fouls>
     <yc>5</yc>
     <rc>0</rc>
+    <weburl>https://www.manutd.com/en/players-and-staff/detail/ashley-young</weburl>
 </player>
 <player>
     <id>paulpogba</id>
@@ -110,7 +113,7 @@
     <apps>100</apps>
     <goals>24</goals>
     <kit>pogbakit.jpg</kit>
-    <buy>https://us.store.manutd.com/mens-adidas-paul-pogba-red-manchester-united-2019/20-home-replica-player-jersey/p-25500681685238+z-9048-4134216665?_ref=p-ALP:m-GRID:i-r0c2:po-2</buy>
+    <buy>https://store.manutd.com/stores/manutd/en/product/manchester-united-home-shirt-2019---20-with-pogba-6-printing/1069783?categories=football-kits%2Cshop-by-player%2Cpogba-6</buy>
     <plc>1</plc>
     <win>20</win>
     <loss>5</loss>
@@ -123,6 +126,7 @@
     <fouls>3</fouls>
     <yc>5</yc>
     <rc>0</rc>
+    <weburl>manutd.com/en/players-and-staff/detail/paul-pogba</weburl>
 </player>
 <player>
     <id>mctominay</id>
@@ -141,7 +145,7 @@
     <apps>52</apps>
     <goals>3</goals>
     <kit>scottkit.jpg</kit>
-    <buy>https://us.store.manutd.com/youth-adidas-scott-mctominay-red-manchester-united-2019/20-home-replica-player-jersey/p-36503958134664+z-9418-2660503622?_ref=p-DLP:m-GRID:i-r6c1:po-19</buy>
+    <buy>https://store.manutd.com/stores/manutd/en/product/manchester-united-home-shirt-2019---20-with-mctominay-39-printing/1069801?categories=football-kits%2Cshop-by-player%2Cmctominay-39</buy>
     <plc>1</plc>
     <win>20</win>
     <loss>5</loss>
@@ -154,6 +158,7 @@
     <fouls>3</fouls>
     <yc>5</yc>
     <rc>0</rc>
+    <weburl>https://www.manutd.com/en/players-and-staff/detail/scott-mctominay</weburl>
 </player>
 <player>
     <id>martial</id>
@@ -172,7 +177,7 @@
     <apps>116</apps>
     <goals>36</goals>
     <kit>martialkit.jpg</kit>
-    <buy>https://us.store.manutd.com/youth-adidas-scott-mctominay-red-manchester-united-2019/20-home-replica-player-jersey/p-36503958134664+z-9418-2660503622?_ref=p-DLP:m-GRID:i-r6c1:po-19</buy>
+    <buy>https://store.manutd.com/stores/manutd/en/product/manchester-united-home-shirt-2019---20-with-martial-9-printing/1069788?categories=football-kits%2Cshop-by-player%2Cmartial-9</buy>
     <plc>1</plc>
     <win>20</win>
     <loss>5</loss>
@@ -185,6 +190,7 @@
     <fouls>3</fouls>
     <yc>5</yc>
     <rc>0</rc>
+    <weburl>https://www.manutd.com/en/players-and-staff/detail/anthony-martial</weburl>
 </player>
 <player>
     <id>rashford</id>
@@ -203,7 +209,7 @@
     <apps>119</apps>
     <goals>30</goals>
     <kit>rashfordkit.jpg</kit>
-    <buy>https://us.store.manutd.com/mens-adidas-marcus-rashford-red-manchester-united-2019/20-home-replica-player-jersey/p-14725181792921+z-9401-3622143815?_ref=p-ALP:m-GRID:i-r0c2:po-2</buy>
+    <buy>https://store.manutd.com/stores/manutd/en/product/manchester-united-home-shirt-2019---20-with-rashford-10-printing/1069787?categories=football-kits%2Cshop-by-player%2Crashford-10</buy>
     <plc>1</plc>
     <win>20</win>
     <loss>5</loss>
@@ -216,5 +222,6 @@
     <fouls>3</fouls>
     <yc>5</yc>
     <rc>0</rc>
+    <weburl>https://www.manutd.com/en/players-and-staff/detail/marcus-rashford</weburl>
 </player>
 </manchester_united>

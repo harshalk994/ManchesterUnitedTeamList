@@ -8,8 +8,10 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -24,6 +26,7 @@ public class PlayerInfoActivity extends AppCompatActivity {
     private TextView textViewA, textViewM, textViewN, textViewO, textViewP, textViewQ, textViewR, textViewS, textViewT,
             textViewU, textViewV, textViewW, textViewX;
     private ImageView imageView;
+    private Button button;
     private PlayerData data;
 
 
@@ -46,6 +49,7 @@ public class PlayerInfoActivity extends AppCompatActivity {
         textViewW = findViewById(R.id.textView48);
         textViewX = findViewById(R.id.textView49);
         imageView = findViewById(R.id.imageView7);
+        button = findViewById(R.id.button3);
 
         final Intent intent = getIntent();
         final Bundle bundle = intent.getExtras();
@@ -85,6 +89,16 @@ public class PlayerInfoActivity extends AppCompatActivity {
             Log.e("Exception", s);
         }
 
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent4 = new Intent(PlayerInfoActivity.this, WebViewActivity.class);
+                Bundle bundle5 = new Bundle();
+                bundle5.putSerializable("data", data);
+                intent4.putExtras(bundle5);
 
+                startActivity(intent4);
+            }
+        });
     }
 }
