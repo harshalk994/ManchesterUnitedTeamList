@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<manchester_united>
+<player>
+<id>degea</id>
+<image>degeasquad.jpg</image>
+<name>David De Gea</name>
+<position>Goalkeeper</position>
+<jerseyno>1</jersyno>
+</player>
+<player>
+<id>maguire</id>
+<image>harrymaguiresquad.jpg</image>
+<name>Harry Maguire</name>
+<position>Defender</position>
+<jerseyno>5</jerseyno>
+</player>
+<player>
+<id>young</id>
+<image>ashleyyoung.jpg</image>
+<name>Ashley Young</name>
+<position>Defender</position>
+<jerseyno>18</jerseyno>
+</player>
+<player>
+<id>paulpogba</id>
+<image>paulpogbasquad.jpg</image>
+<name>Paul Pogba</name>
+<position>Midfielder</position>
+<jerseyno>8</jerseyno>
+</player>
+<player>
+<id>mctominay</id>
+<image>scottmctominaysquad.jpg</image>
+<name>Scott McTominay</name>
+<position>Midfielder</position>
+<jerseyno>39</jerseyno>
+</player>
+<player>
+<id>martial</id>
+<image>anthonymartialsquad.jpg</image>
+<name>Anthony Martial</name>
+<position>Forward</position>
+<jerseyno>9</jerseyno>
+</player>
+<player>
+<id>rashford</id>
+<image>marcusrashfordsquad.jpg</image>
+<name>Marcus Rashford</name>
+<position>Forward</position>
+<jerseyno>10</jerseyno>
+</player>
+</manchester_united>

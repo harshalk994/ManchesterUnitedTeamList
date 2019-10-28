@@ -52,293 +52,322 @@
         android:textSize="18sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView49"
-        android:layout_width="215dp"
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textView48"
-        android:layout_toRightOf="@id/textView47"
-        android:background="@drawable/back"
-        android:text="Goals Conceded"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:layout_below="@id/textView50">
 
-    <TextView
-        android:id="@+id/textView48"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView45"
-        android:layout_toRightOf="@id/textView46"
-        android:background="@drawable/back"
-        android:text="Goals Conceded"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/textView47"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView46"
-        android:background="@drawable/back"
-        android:text="Red Cards"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView31"
+                android:background="@drawable/back"
+                android:text="Passes"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/textView46"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView35"
-        android:background="@drawable/back"
-        android:text="YellowCards"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView41"
+                android:layout_toRightOf="@id/textView32"
+                android:background="@drawable/back"
+                android:text="Pass"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView45"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView44"
-        android:layout_toRightOf="@id/textView35"
-        android:background="@drawable/back"
-        android:text="Country of Birth"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView45"
+                android:layout_toRightOf="@id/textView46"
+                android:background="@drawable/back"
+                android:text="Yellow"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView44"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView43"
-        android:layout_toRightOf="@id/textView34"
-        android:background="@drawable/back"
-        android:text="Country of Birth"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView34"
+                android:background="@drawable/back"
+                android:text="Fouls"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/textView43"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView42"
-        android:layout_toRightOf="@id/textView33"
-        android:background="@drawable/back"
-        android:text="Country of Birth"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView28"
+                android:background="@drawable/back"
+                android:text="Clean Sheets"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/textView42"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView41"
-        android:layout_toRightOf="@id/textView32"
-        android:background="@drawable/back"
-        android:text="Country of Birth"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView35"
+                android:background="@drawable/back"
+                android:text="YellowCards"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/textView41"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView40"
-        android:layout_toRightOf="@id/textView31"
-        android:background="@drawable/back"
-        android:text="Country of Birth"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView46"
+                android:background="@drawable/back"
+                android:text="Red Cards"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/textView40"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView39"
-        android:layout_toRightOf="@id/textView30"
-        android:background="@drawable/back"
-        android:text="Country of Birth"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView44"
+                android:layout_toRightOf="@id/textView35"
+                android:background="@drawable/back"
+                android:text="Foul"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView39"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView38"
-        android:layout_toRightOf="@id/textView29"
-        android:background="@drawable/back"
-        android:text="Country of Birth"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView30"
+                android:background="@drawable/back"
+                android:text="Assists"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/textView38"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView37"
-        android:layout_toRightOf="@id/textView28"
-        android:background="@drawable/back"
-        android:text="Country of Birth"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView29"
+                android:background="@drawable/back"
+                android:text="Own Goals"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/textView37"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView36"
-        android:layout_toRightOf="@id/textView27"
-        android:background="@drawable/back"
-        android:text="Country of Birth"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView26"
+                android:background="@drawable/back"
+                android:text="Wins"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/textView36"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView50"
-        android:layout_toRightOf="@id/textView26"
-        android:background="@drawable/back"
-        android:text="Country of Birth"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView37"
+                android:layout_toRightOf="@id/textView28"
+                android:background="@drawable/back"
+                android:text="Losses"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView35"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView34"
-        android:background="@drawable/back"
-        android:text="Fouls"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView48"
+                android:layout_toRightOf="@id/textView47"
+                android:background="@drawable/back"
+                android:text="Red"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView34"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView33"
-        android:background="@drawable/back"
-        android:text="Through Balls"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView43"
+                android:layout_toRightOf="@id/textView34"
+                android:background="@drawable/back"
+                android:text="TB"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView33"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView32"
-        android:background="@drawable/back"
-        android:text="Crosses"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView32"
+                android:background="@drawable/back"
+                android:text="Crosses"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/textView32"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView31"
-        android:background="@drawable/back"
-        android:text="Passes"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/textView26"
+                android:background="@drawable/back"
+                android:text="PLC"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView31"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView30"
-        android:background="@drawable/back"
-        android:text="Assists"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView27"
+                android:background="@drawable/back"
+                android:text="Losses"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/textView30"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView29"
-        android:background="@drawable/back"
-        android:text="Own Goals"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back"
+                android:text="PL Champion"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/textView29"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView28"
-        android:background="@drawable/back"
-        android:text="Clean Sheets"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView36"
+                android:layout_toRightOf="@id/textView27"
+                android:background="@drawable/back"
+                android:text="Wins"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView28"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView27"
-        android:background="@drawable/back"
-        android:text="Losses"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView39"
+                android:layout_toRightOf="@id/textView30"
+                android:background="@drawable/back"
+                android:text="OG"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView27"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView26"
-        android:background="@drawable/back"
-        android:text="Wins"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView33"
+                android:background="@drawable/back"
+                android:text="Through Balls"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/textView26"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView50"
-        android:background="@drawable/back"
-        android:text="PL Champion"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView42"
+                android:layout_toRightOf="@id/textView33"
+                android:background="@drawable/back"
+                android:text="Cross"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView38"
+                android:layout_toRightOf="@id/textView29"
+                android:background="@drawable/back"
+                android:text="CS"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView40"
+                android:layout_toRightOf="@id/textView31"
+                android:background="@drawable/back"
+                android:text="Assist"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView49"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#DF1F22"
+                android:foregroundGravity="center|center_horizontal"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="More Info"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </ScrollView>
 
     <ImageView
         android:id="@+id/imageView7"
@@ -359,20 +388,4 @@
         android:textSize="25sp"
         android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView49"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
-        android:background="#DF1F22"
-        android:gravity="center"
-        android:text="More Info"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold" />
 </RelativeLayout>

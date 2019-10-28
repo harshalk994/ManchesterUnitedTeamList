@@ -19,16 +19,16 @@
     <kit>degeashirt.jpg</kit>
     <buy>https://store.manutd.com/stores/manutd/en/product/manchester-united-home-goalkeeper-shirt-2019---20-with-de-gea-1-printing/1069751?categories=football-kits%2Cshop-by-player%2Cde-gea-1</buy>
     <plc>1</plc>
-    <win>20</win>
-    <loss>5</loss>
-    <clean>7</clean>
+    <win>159</win>
+    <loss>60</loss>
+    <clean>102</clean>
     <ogs>1</ogs>
     <assists>0</assists>
-    <passes>100</passes>
+    <passes>6383</passes>
     <crosses>0</crosses>
     <tballs>2</tballs>
-    <fouls>3</fouls>
-    <yc>5</yc>
+    <fouls>1</fouls>
+    <yc>4</yc>
     <rc>0</rc>
     <weburl>https://www.manutd.com/en/players-and-staff/detail/david-de-gea</weburl>
 </player>
@@ -51,17 +51,17 @@
     <kit>maguirekit.jpg</kit>
     <buy>https://store.manutd.com/stores/manutd/en/product/manchester-united-home-shirt-2019---20-with-maguire-5-printing/1077458?categories=football-kits%2Cshop-by-player%2Cmaguire-5</buy>
     <plc>1</plc>
-    <win>10</win>
-    <loss>2</loss>
-    <clean>3</clean>
-    <ogs>1</ogs>
-    <assists>10</assists>
-    <passes>100</passes>
-    <crosses>0</crosses>
-    <tballs>2</tballs>
-    <fouls>3</fouls>
-    <yc>5</yc>
-    <rc>0</rc>
+    <win>35</win>
+    <loss>52</loss>
+    <clean>21</clean>
+    <ogs>0</ogs>
+    <assists>6</assists>
+    <passes>5346</passes>
+    <crosses>34</crosses>
+    <tballs>6</tballs>
+    <fouls>86</fouls>
+    <yc>20</yc>
+    <rc>1</rc>
     <weburl>https://www.manutd.com/en/players-and-staff/detail/harry-maguire</weburl>
 </player>
 <player>
@@ -83,17 +83,17 @@
     <kit>youngkit.jpg</kit>
     <buy>https://store.manutd.com/stores/manutd/en/product/manchester-united-home-shirt-2019---20-with-young-18-printing/1069794?categories=football-kits%2Cshop-by-player%2Cyoung-18</buy>
     <plc>1</plc>
-    <win>20</win>
-    <loss>5</loss>
-    <clean>7</clean>
-    <ogs>1</ogs>
-    <assists>0</assists>
-    <passes>100</passes>
-    <crosses>0</crosses>
-    <tballs>2</tballs>
-    <fouls>3</fouls>
-    <yc>5</yc>
-    <rc>0</rc>
+    <win>171</win>
+    <loss>92</loss>
+    <clean>76</clean>
+    <ogs>0</ogs>
+    <assists>69</assists>
+    <passes>11145</passes>
+    <crosses>2676</crosses>
+    <tballs>106</tballs>
+    <fouls>396</fouls>
+    <yc>69</yc>
+    <rc>2</rc>
     <weburl>https://www.manutd.com/en/players-and-staff/detail/ashley-young</weburl>
 </player>
 <player>
@@ -115,17 +115,17 @@
     <kit>pogbakit.jpg</kit>
     <buy>https://store.manutd.com/stores/manutd/en/product/manchester-united-home-shirt-2019---20-with-pogba-6-printing/1069783?categories=football-kits%2Cshop-by-player%2Cpogba-6</buy>
     <plc>1</plc>
-    <win>20</win>
-    <loss>5</loss>
+    <win>56</win>
+    <loss>16</loss>
     <clean>7</clean>
-    <ogs>1</ogs>
-    <assists>0</assists>
-    <passes>100</passes>
-    <crosses>0</crosses>
-    <tballs>2</tballs>
-    <fouls>3</fouls>
-    <yc>5</yc>
-    <rc>0</rc>
+    <ogs>0</ogs>
+    <assists>25</assists>
+    <passes>6420</passes>
+    <crosses>101</crosses>
+    <tballs>61</tballs>
+    <fouls>169</fouls>
+    <yc>18</yc>
+    <rc>1</rc>
     <weburl>https://www.manutd.com/en/players-and-staff/detail/paul-pogba</weburl>
 </player>
 <player>
@@ -146,16 +146,16 @@
     <goals>3</goals>
     <kit>scottkit.jpg</kit>
     <buy>https://store.manutd.com/stores/manutd/en/product/manchester-united-home-shirt-2019---20-with-mctominay-39-printing/1069801?categories=football-kits%2Cshop-by-player%2Cmctominay-39</buy>
-    <plc>1</plc>
-    <win>20</win>
-    <loss>5</loss>
+    <plc>0</plc>
+    <win>22</win>
+    <loss>10</loss>
     <clean>7</clean>
-    <ogs>1</ogs>
-    <assists>0</assists>
-    <passes>100</passes>
-    <crosses>0</crosses>
+    <ogs>0</ogs>
+    <assists>1</assists>
+    <passes>1362</passes>
+    <crosses>13</crosses>
     <tballs>2</tballs>
-    <fouls>3</fouls>
+    <fouls>37</fouls>
     <yc>5</yc>
     <rc>0</rc>
     <weburl>https://www.manutd.com/en/players-and-staff/detail/scott-mctominay</weburl>
@@ -178,17 +178,17 @@
     <goals>36</goals>
     <kit>martialkit.jpg</kit>
     <buy>https://store.manutd.com/stores/manutd/en/product/manchester-united-home-shirt-2019---20-with-martial-9-printing/1069788?categories=football-kits%2Cshop-by-player%2Cmartial-9</buy>
-    <plc>1</plc>
-    <win>20</win>
-    <loss>5</loss>
-    <clean>7</clean>
-    <ogs>1</ogs>
-    <assists>0</assists>
-    <passes>100</passes>
-    <crosses>0</crosses>
-    <tballs>2</tballs>
-    <fouls>3</fouls>
-    <yc>5</yc>
+    <plc>0</plc>
+    <win>59</win>
+    <loss>31</loss>
+    <clean>4</clean>
+    <ogs>0</ogs>
+    <assists>18</assists>
+    <passes>3063</passes>
+    <crosses>190</crosses>
+    <tballs>175</tballs>
+    <fouls>102</fouls>
+    <yc>8</yc>
     <rc>0</rc>
     <weburl>https://www.manutd.com/en/players-and-staff/detail/anthony-martial</weburl>
 </player>
@@ -210,18 +210,146 @@
     <goals>30</goals>
     <kit>rashfordkit.jpg</kit>
     <buy>https://store.manutd.com/stores/manutd/en/product/manchester-united-home-shirt-2019---20-with-rashford-10-printing/1069787?categories=football-kits%2Cshop-by-player%2Crashford-10</buy>
-    <plc>1</plc>
-    <win>20</win>
-    <loss>5</loss>
-    <clean>7</clean>
-    <ogs>1</ogs>
-    <assists>0</assists>
-    <passes>100</passes>
-    <crosses>0</crosses>
-    <tballs>2</tballs>
-    <fouls>3</fouls>
-    <yc>5</yc>
-    <rc>0</rc>
+    <plc>0</plc>
+    <win>64</win>
+    <loss>24</loss>
+    <clean>5</clean>
+    <ogs>0</ogs>
+    <assists>17</assists>
+    <passes>2230</passes>
+    <crosses>238</crosses>
+    <tballs>5</tballs>
+    <fouls>74</fouls>
+    <yc>10</yc>
+    <rc>1</rc>
     <weburl>https://www.manutd.com/en/players-and-staff/detail/marcus-rashford</weburl>
 </player>
+    <player>
+        <id>james</id>
+        <image>danieljamessquad.jpg</image>
+        <name>Daniel James</name>
+        <position>Midfield</position>
+        <flagimg>wales.png</flagimg>
+        <imageonclick>danieljamesleft.png</imageonclick>
+        <jerseyno>21</jerseyno>
+        <url>https://www.youtube.com/watch?v=Afvin1aQzOE</url>
+        <birth>Wales</birth>
+        <nation>Wales</nation>
+        <age>21 years</age>
+        <dob>10 November 1997</dob>
+        <pld>11 August 2019</pld>
+        <apps>10</apps>
+        <goals>3</goals>
+        <kit>jameskit.jpg</kit>
+        <buy>https://store.manutd.com/stores/manutd/en/product/manchester-united-home-shirt-2019---20-with-james-21-printing/1072290?categories=football-kits%2Cshop-by-player%2Cjames-21</buy>
+        <plc>0</plc>
+        <win>3</win>
+        <loss>3</loss>
+        <clean>1</clean>
+        <ogs>0</ogs>
+        <assists>2</assists>
+        <passes>214</passes>
+        <crosses>38</crosses>
+        <tballs>0</tballs>
+        <fouls>7</fouls>
+        <yc>3</yc>
+        <rc>0</rc>
+        <weburl>https://www.manutd.com/en/players-and-staff/detail/daniel-james</weburl>
+    </player>
+    <player>
+        <id>fred</id>
+        <image>fredsquad.jpg</image>
+        <name>Fred</name>
+        <position>Midfield</position>
+        <flagimg>brazil.png</flagimg>
+        <imageonclick>fredleft.png</imageonclick>
+        <jerseyno>17</jerseyno>
+        <url>https://www.youtube.com/watch?v=W8Zn9RcQHBU</url>
+        <birth>Brazil</birth>
+        <nation>Brazil</nation>
+        <age>26 years</age>
+        <dob>2 March 1993</dob>
+        <pld>10 August 2018</pld>
+        <apps>23</apps>
+        <goals>1</goals>
+        <kit>fredkit.jpg</kit>
+        <buy>https://store.manutd.com/stores/manutd/en/product/manchester-united-cup-home-shirt-2019---20-with-fred-17-printing/1069953?categories=football-kits%2Cshop-by-player%2Cfred-17</buy>
+        <plc>0</plc>
+        <win>11</win>
+        <loss>9</loss>
+        <clean>0</clean>
+        <ogs>0</ogs>
+        <assists>1</assists>
+        <passes>977</passes>
+        <crosses>13</crosses>
+        <tballs>3</tballs>
+        <fouls>31</fouls>
+        <yc>3</yc>
+        <rc>0</rc>
+        <weburl>https://www.manutd.com/en/players-and-staff/detail/fred</weburl>
+    </player>
+    <player>
+        <id>bissaka</id>
+        <image>bissakasquad.jpg</image>
+        <name>Aaron Wan-Bissaka</name>
+        <position>Defender</position>
+        <flagimg>england.jpg</flagimg>
+        <imageonclick>bissakaleft.png</imageonclick>
+        <jerseyno>29</jerseyno>
+        <url>https://www.youtube.com/watch?v=qgjPbw2--aU</url>
+        <birth>England</birth>
+        <nation>England</nation>
+        <age>21 years</age>
+        <dob>26 November 1997</dob>
+        <pld>25 February 2018</pld>
+        <apps>57</apps>
+        <goals>0</goals>
+        <kit>bissakakit.jpg</kit>
+        <buy>https://store.manutd.com/stores/manutd/en/product/manchester-united-home-shirt-2019---20-with-wan-bissaka-29-printing/1074342?categories=football-kits%2Cshop-by-player%2Cwan-bissaka-29</buy>
+        <plc>0</plc>
+        <win>18</win>
+        <loss>21</loss>
+        <clean>16</clean>
+        <ogs>0</ogs>
+        <assists>3</assists>
+        <passes>1757</passes>
+        <crosses>100</crosses>
+        <tballs>1</tballs>
+        <fouls>29</fouls>
+        <yc>8</yc>
+        <rc>1</rc>
+        <weburl>https://www.manutd.com/en/players-and-staff/detail/aaron-wan-bissaka</weburl>
+    </player>
+    <player>
+        <id>pereira</id>
+        <image>pereirasquad.jpg</image>
+        <name>Andreas Pereira</name>
+        <position>Midfielder</position>
+        <flagimg>brazil.png</flagimg>
+        <imageonclick>pereiraleft.png</imageonclick>
+        <jerseyno>15</jerseyno>
+        <url>https://www.youtube.com/watch?v=oFQZpSEt90w</url>
+        <birth>Belgium</birth>
+        <nation>Brazil</nation>
+        <age>23 years</age>
+        <dob>1 January 1996</dob>
+        <pld>15 March 2015</pld>
+        <apps>33</apps>
+        <goals>1</goals>
+        <kit>pereirakit.jpg</kit>
+        <buy>https://store.manutd.com/stores/manutd/en/product/manchester-united-home-shirt-2019---20-with-andreas-15-printing/1069791?categories=football-kits%2Cshop-by-player%2Candreas-15</buy>
+        <plc>0</plc>
+        <win>12</win>
+        <loss>9</loss>
+        <clean>4</clean>
+        <ogs>0</ogs>
+        <assists>2</assists>
+        <passes>605</passes>
+        <crosses>50</crosses>
+        <tballs>1</tballs>
+        <fouls>27</fouls>
+        <yc>8</yc>
+        <rc>0</rc>
+        <weburl>https://www.manutd.com/en/players-and-staff/detail/andreas-pereira</weburl>
+    </player>
 </manchester_united>

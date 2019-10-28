@@ -8,6 +8,97 @@
     tools:context=".TestRelative">
 
     <TextView
+        android:id="@+id/textView22"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView21"
+        android:layout_toRightOf="@id/textView16"
+        android:background="@drawable/back"
+        android:text="apps"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView19"
+        android:layout_toRightOf="@id/textView14"
+        android:background="@drawable/back"
+        android:text="dob"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView20"
+        android:layout_toRightOf="@id/textView15"
+        android:background="@drawable/back"
+        android:text="pld"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView18"
+        android:layout_toRightOf="@id/textView13"
+        android:background="@drawable/back"
+        android:text="age"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5"
+        android:layout_toRightOf="@id/textView10"
+        android:background="@drawable/back"
+        android:text="cob"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView22"
+        android:layout_toRightOf="@id/textView17"
+        android:background="@drawable/back"
+        android:text="goals"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView11"
+        android:layout_toRightOf="@id/textView12"
+        android:background="@drawable/back"
+        android:text="national"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
         android:id="@+id/textView52"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -41,19 +132,6 @@
         app:srcCompat="@drawable/aon" />
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="100dp"
-        android:layout_height="35dp"
-        android:layout_below="@id/imageView6"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="5dp"
-        android:background="#DF1F22"
-        android:gravity="center"
-        android:text="Buy Now"
-        android:textAlignment="center"
-        android:textStyle="bold" />
-
-    <Button
         android:id="@+id/button4"
         android:layout_width="100dp"
         android:layout_height="35dp"
@@ -75,84 +153,6 @@
         android:text="Official Jersey"
         android:textColor="#000000"
         android:textSize="25sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView23"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView22"
-        android:layout_toRightOf="@id/textView17"
-        android:background="@drawable/back"
-        android:text="TextView"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView21"
-        android:layout_toRightOf="@id/textView16"
-        android:background="@drawable/back"
-        android:text="TextView"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView20"
-        android:layout_toRightOf="@id/textView15"
-        android:background="@drawable/back"
-        android:text="TextView"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView19"
-        android:layout_toRightOf="@id/textView14"
-        android:background="@drawable/back"
-        android:text="TextView"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView18"
-        android:layout_toRightOf="@id/textView13"
-        android:background="@drawable/back"
-        android:text="TextView"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView11"
-        android:layout_toRightOf="@id/textView12"
-        android:background="@drawable/back"
-        android:text="TextView"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
         android:textStyle="bold" />
 
     <TextView
@@ -307,25 +307,37 @@
         android:textColor="#000000"
         android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView5"
-        android:layout_toRightOf="@id/textView10"
-        android:background="@drawable/back"
-        android:text="TextView"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView24">
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="200dp"
-        android:layout_height="175dp"
-        android:layout_below="@id/textView24"
-        android:layout_centerHorizontal="true"
-        app:srcCompat="@drawable/homekit" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_below="@id/imageView6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:background="#DF1F22"
+                android:gravity="center"
+                android:text="Buy Now"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="200dp"
+                android:layout_height="175dp"
+
+                android:layout_centerInParent="true"
+                android:paddingBottom="20dp"
+                app:srcCompat="@drawable/homekit" />
+        </RelativeLayout>
+    </ScrollView>
 
 </RelativeLayout>
