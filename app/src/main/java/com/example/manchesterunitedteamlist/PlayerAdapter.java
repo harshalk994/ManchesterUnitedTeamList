@@ -30,6 +30,7 @@ public class PlayerAdapter extends ArrayAdapter<PlayerData> {
     int resource;
     List<PlayerData> playerDataList;
 
+    //override the ArrayAdapter constructor
     public PlayerAdapter(Context myCtx, int resource, List<PlayerData> playerDataList){
         super(myCtx, resource, playerDataList);
         this.myCtx = myCtx;
@@ -42,8 +43,10 @@ public class PlayerAdapter extends ArrayAdapter<PlayerData> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         LayoutInflater inflater = LayoutInflater.from(myCtx);
 
+        //create and inflate the view with the playerview.xml layout
         View view = inflater.inflate(R.layout.playerview, null);
 
+        //wiring the widgets
         TextView textViewName = view.findViewById(R.id.textView6);
         TextView textViewPosition = view.findViewById(R.id.textView7);
         ImageView imageViewPlayers = view.findViewById(R.id.imageView);
@@ -54,9 +57,8 @@ public class PlayerAdapter extends ArrayAdapter<PlayerData> {
         textViewName.setText(playerData.getName());
         Log.e("%%%%%",playerData.getName());
         textViewPosition.setText(playerData.getPosition());
-       // imageViewPlayers.setImageDrawable(myCtx.getResources().getDrawable(Integer.parseInt(playerData.getImage())));
-        //imageCountry.setImageDrawable(myCtx.getResources().getDrawable(Integer.parseInt(playerData.getCountry())));
 
+        //images are stored in assets folder, accessing the images from it using AssetManager
         AssetManager assetManager = myCtx.getAssets();
         Bitmap bitmap, bitmaps;
         InputStream is, cs;
@@ -64,7 +66,6 @@ public class PlayerAdapter extends ArrayAdapter<PlayerData> {
             Log.e("$$$$$","******");
             is = assetManager.open(playerData.getId()+"/" + playerData.getImage());
             cs = assetManager.open(playerData.getId()+"/"+playerData.getCountry());
-            //Bitmap bitmap, bitmaps;
             bitmap = BitmapFactory.decodeStream(is);
             bitmaps = BitmapFactory.decodeStream(cs);
             imageViewPlayers.setImageBitmap(bitmap);
@@ -77,19 +78,7 @@ public class PlayerAdapter extends ArrayAdapter<PlayerData> {
             Log.e("Exception", s);
         }
 
-        /*AssetManager assetManager1 = myCtx.getAssets();
-        try {
-            cs = assetManager.open(playerData.getId()+"/"+playerData.getCountry());
-            bitmaps = BitmapFactory.decodeStream(cs);
-            imageCountry.setImageBitmap(bitmaps);
-        } catch (IOException e) {
-            e.printStackTrace();
-            Writer writer = new StringWriter();
-            e.printStackTrace(new PrintWriter(writer));
-            String s = writer.toString();
-            Log.e("Exception", s);
-        }*/
-
+        //return the view to the custom list
         return view;
     }
 }

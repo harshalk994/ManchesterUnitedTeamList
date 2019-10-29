@@ -20,8 +20,11 @@ public class SplashScreenActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
+                //make an intent to traverse from splash screen to the custom list
                 Intent intent = new Intent(SplashScreenActivity.this, PlayerListActivity.class);
                 startActivity(intent);
+
+                //do not allow user to go back to the splash screen on hitting the back button
                 finish();
             }
         },SPLASH_TIME_OUT);

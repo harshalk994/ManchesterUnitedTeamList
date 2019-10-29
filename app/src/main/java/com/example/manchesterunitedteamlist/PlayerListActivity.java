@@ -20,15 +20,8 @@ import java.util.List;
 
 public class PlayerListActivity extends AppCompatActivity {
 
-     /*String [] playerNames = {"David De Gea", "Harry Maguire", "Ashley Young", "Paul Pogba", "Scott McTominay", "Anthony Martial", "Marcus Rashford"};
-     String [] playerPositions = {"GK", "CD", "RB", "CDM", "CDM", "RS", "LS"};
-     public int [] playerImages = {R.drawable.degeasquad, R.drawable.harrymaguiresquad, R.drawable.ashleyyoung, R.drawable.paulpogbasquad, R.drawable.scottmctominaysquad,
-            R.drawable.anthonymartialsquad, R.drawable.marcusrashfordsquad};*/
     private ListView list ;
-   // private ArrayAdapter<PlayerData> adapter = null;
     private PlayerXMLData data ;
-   // private PlayerAdapter adapter = null;
-   // private ArrayList<PlayerData> players ;
     List<PlayerData> players;
 
 
@@ -36,6 +29,7 @@ public class PlayerListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_player_list);
+
         players = new ArrayList<>();
         data = new PlayerXMLData(getApplicationContext());
         Log.e("&&&&",Integer.toString(data.getLength()));
@@ -46,26 +40,29 @@ public class PlayerListActivity extends AppCompatActivity {
        }
         Log.e("***",data.getPlayerData(0).getName());
 
-        list = (ListView) findViewById(R.id.listView);
+         //wire the elements
+         list = (ListView) findViewById(R.id.listView);
 
+     //set the adapter
       PlayerAdapter  adapter = new PlayerAdapter(this,R.layout.playerview,players);
-        //link the adapter
 
-
-
+      //link the adapter
         list.setAdapter(adapter);
 
+        //on clicking the item in list, it should open the respective player's info in new activity
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
+                //make intent and bundle
                 Intent intent = new Intent(PlayerListActivity.this, TestRelative.class);
                 Bundle bundle = new Bundle();
 
+                ////add data to bundle
                 bundle.putSerializable("data", data.getPlayerData(i));
-
                 intent.putExtras(bundle);
 
+                //start the activity
                 startActivity(intent);
 
             }

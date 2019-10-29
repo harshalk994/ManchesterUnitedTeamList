@@ -20,8 +20,10 @@ public class PlayerXMLData {
     public PlayerXMLData(Context c) {
         this.myContext = c;
 
+        //get an input stream to xml
         InputStream stream = this.myContext.getResources().openRawResource(R.raw.player_data);
 
+        //parse xml to a document
         DocumentBuilder builder = null;
         Document xml = null;
         try {
@@ -32,6 +34,7 @@ public class PlayerXMLData {
             System.out.println("Unable to parse");
         }
 
+        //slice the document into NodeLists for image, name, position, flag icon etc.
         NodeList imageList = xml.getElementsByTagName("image");
         NodeList playerName = xml.getElementsByTagName("name");
         NodeList playerPosition = xml.getElementsByTagName("position");
@@ -63,8 +66,7 @@ public class PlayerXMLData {
         NodeList prc = xml.getElementsByTagName("rc");
         NodeList pwurl = xml.getElementsByTagName("weburl");
 
-
-
+        //traverse the list to make data
         data = new PlayerData[playerName.getLength()];
 
         for(int i=0; i<data.length;i++){
@@ -99,7 +101,6 @@ public class PlayerXMLData {
             String yellow = pyc.item(i).getFirstChild().getNodeValue();
             String red = prc.item(i).getFirstChild().getNodeValue();
             String weburl = pwurl.item(i).getFirstChild().getNodeValue();
-            //int ctry = Integer.valueOf(country);
 
             data[i] = new PlayerData(image, name, position, country, jersey, img, squadno, urlPass, birth, nation, age,
                     dob, pdebut, appearance, goal, kit, buy, plwins, wins, losses, cleansheet, ogoals, assists,
@@ -119,18 +120,6 @@ public class PlayerXMLData {
     }
 
 
-   /* public int [] getImages(){
-
-        //construct the String []
-        int [] images = new int[data.length];
-
-        //populate it with names
-        for(int i=0;i<data.length;i++){
-            images[i] = data[i].getImage();
-        }
-
-        return images;
-    }*/
 
     public String [] getNames(){
 

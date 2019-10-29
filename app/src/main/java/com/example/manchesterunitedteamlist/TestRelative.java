@@ -32,8 +32,7 @@ public class TestRelative extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test_relative);
 
-
-
+        //wire the elements
         textName = findViewById(R.id.textView8);
         textPosition = findViewById(R.id.textView2);
         textJerseyNo = findViewById(R.id.textView4);
@@ -50,12 +49,13 @@ public class TestRelative extends AppCompatActivity {
         buyButton = findViewById(R.id.button5);
         moreInfoButton = findViewById(R.id.button4);
 
-
+        //get the pushed data
         final Intent intent = getIntent();
         final Bundle bundle = intent.getExtras();
 
         data = (PlayerData)bundle.getSerializable("data");
 
+        //populate the fields with data
         textName.setText(data.getName());
         textPosition.setText(data.getPosition());
         textJerseyNo.setText(data.getJerseyNo());
@@ -67,7 +67,7 @@ public class TestRelative extends AppCompatActivity {
         appView.setText(data.getApps());
         goalsView.setText(data.getGoals());
 
-
+        //images are stored in assets folder, user AssetManager to access them
         AssetManager assetManager = getAssets();
         Bitmap bitmap,bitmap1;
         InputStream is, is2;
@@ -80,7 +80,6 @@ public class TestRelative extends AppCompatActivity {
 
             imgView.setImageBitmap(bitmap);
             kitView.setImageBitmap(bitmap1);
-
         } catch (IOException e) {
             e.printStackTrace();
             Writer writer = new StringWriter();
@@ -92,8 +91,9 @@ public class TestRelative extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //make an intent to travers to the youtube app and play the video
                 Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse(data.getUrl()));
-
+                //start the app
                 startActivity(intent1);
             }
         });
@@ -101,26 +101,31 @@ public class TestRelative extends AppCompatActivity {
         buyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //make an intent to traverse and open the shop web view activity
                Intent intent2 = new Intent(TestRelative.this, ShopWebView.class);
                Bundle bundle2 = new Bundle();
+
+               //add data to bundle
                bundle2.putSerializable("Shop data", data);
+               intent2.putExtras(bundle2);
 
-                intent2.putExtras(bundle2);
+                //start activity
                 startActivity(intent2);
-                // Intent intent2 = new Intent(Intent.ACTION_VIEW, Uri.parse(data.getBuy()));
-
-                //startActivity(intent2);
             }
         });
 
         moreInfoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //make an intent to traverse and open the Player Statistics activity
                 Intent intent3 = new Intent(TestRelative.this, PlayerInfoActivity.class);
                 Bundle bundle1 = new Bundle();
-                bundle1.putSerializable("data", data);
 
+                //add data to bundle
+                bundle1.putSerializable("data", data);
                 intent3.putExtras(bundle1);
+
+                //start the activity
                 startActivity(intent3);
             }
         });

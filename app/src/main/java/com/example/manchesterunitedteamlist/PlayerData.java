@@ -4,6 +4,8 @@ import java.io.Serializable;
 
 public class PlayerData implements Serializable {
 
+   //Model Class with constructor and getter setters
+
     private String id;
     private String name;
     private String image;
