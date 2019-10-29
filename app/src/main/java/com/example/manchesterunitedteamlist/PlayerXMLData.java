@@ -65,6 +65,7 @@ public class PlayerXMLData {
         NodeList pyc = xml.getElementsByTagName("yc");
         NodeList prc = xml.getElementsByTagName("rc");
         NodeList pwurl = xml.getElementsByTagName("weburl");
+        NodeList pr = xml.getElementsByTagName("ratings");
 
         //traverse the list to make data
         data = new PlayerData[playerName.getLength()];
@@ -101,10 +102,11 @@ public class PlayerXMLData {
             String yellow = pyc.item(i).getFirstChild().getNodeValue();
             String red = prc.item(i).getFirstChild().getNodeValue();
             String weburl = pwurl.item(i).getFirstChild().getNodeValue();
+            String ratings = pr.item(i).getFirstChild().getNodeValue();
 
             data[i] = new PlayerData(image, name, position, country, jersey, img, squadno, urlPass, birth, nation, age,
                     dob, pdebut, appearance, goal, kit, buy, plwins, wins, losses, cleansheet, ogoals, assists,
-                    passes, crosses, throughs, fouls, yellow, red, weburl);
+                    passes, crosses, throughs, fouls, yellow, red, weburl, ratings);
         }
 
 

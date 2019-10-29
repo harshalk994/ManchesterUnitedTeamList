@@ -22,7 +22,7 @@ import java.io.Writer;
 
 public class TestRelative extends AppCompatActivity {
 
-    private TextView textName, textPosition, textJerseyNo, countryView, nationView, ageView, dobView, pldebutView, appView, goalsView;
+    private TextView textName, textPosition, textJerseyNo, countryView, nationView, ageView, dobView, pldebutView, appView, goalsView, textRatings;
     private ImageView imgView, kitView;
     private Button button, buyButton, moreInfoButton;
     private PlayerData data;
@@ -48,6 +48,7 @@ public class TestRelative extends AppCompatActivity {
         kitView = findViewById(R.id.imageView6);
         buyButton = findViewById(R.id.button5);
         moreInfoButton = findViewById(R.id.button4);
+        textRatings = findViewById(R.id.ratings);
 
         //get the pushed data
         final Intent intent = getIntent();
@@ -66,6 +67,7 @@ public class TestRelative extends AppCompatActivity {
         pldebutView.setText(data.getDebut());
         appView.setText(data.getApps());
         goalsView.setText(data.getGoals());
+        textRatings.setText(data.getRatings());
 
         //images are stored in assets folder, user AssetManager to access them
         AssetManager assetManager = getAssets();

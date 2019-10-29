@@ -8,97 +8,6 @@
     tools:context=".TestRelative">
 
     <TextView
-        android:id="@+id/textView22"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView21"
-        android:layout_toRightOf="@id/textView16"
-        android:background="@drawable/back"
-        android:text="apps"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView19"
-        android:layout_toRightOf="@id/textView14"
-        android:background="@drawable/back"
-        android:text="dob"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView20"
-        android:layout_toRightOf="@id/textView15"
-        android:background="@drawable/back"
-        android:text="pld"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView18"
-        android:layout_toRightOf="@id/textView13"
-        android:background="@drawable/back"
-        android:text="age"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView5"
-        android:layout_toRightOf="@id/textView10"
-        android:background="@drawable/back"
-        android:text="cob"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView23"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView22"
-        android:layout_toRightOf="@id/textView17"
-        android:background="@drawable/back"
-        android:text="goals"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView11"
-        android:layout_toRightOf="@id/textView12"
-        android:background="@drawable/back"
-        android:text="national"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <TextView
         android:id="@+id/textView52"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -107,6 +16,17 @@
         android:textColor="#000000"
         android:textSize="40sp"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ratings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/imageView2"
+        android:text="TextView" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -143,83 +63,6 @@
         android:text="Stats"
         android:textSize="15sp"
         android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView24"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView17"
-        android:gravity="center"
-        android:text="Official Jersey"
-        android:textColor="#000000"
-        android:textSize="25sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView16"
-        android:background="@drawable/back"
-        android:text="Goals"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp" />
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView15"
-        android:background="@drawable/back"
-        android:text="Appearances"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView14"
-        android:background="@drawable/back"
-        android:text="Premier League Debut"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView13"
-        android:background="@drawable/back"
-        android:text="Date of Birth"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView10"
-        android:background="@drawable/back"
-        android:text="National Team"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView12"
-        android:background="@drawable/back"
-        android:text="Age"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -275,7 +118,7 @@
         android:id="@+id/button2"
         android:layout_width="100dp"
         android:layout_height="35dp"
-        android:layout_below="@id/textView4"
+        android:layout_below="@id/ratings"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp"
         android:layout_toRightOf="@id/imageView2"
@@ -296,25 +139,192 @@
         android:textSize="25sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="215dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView5"
-        android:background="@drawable/back"
-        android:text="Country of Birth"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp" />
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/textView24">
+        android:layout_below="@id/textView5">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView21"
+                android:layout_toRightOf="@id/textView16"
+                android:background="@drawable/back"
+                android:text="apps"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView19"
+                android:layout_toRightOf="@id/textView14"
+                android:background="@drawable/back"
+                android:text="dob"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView20"
+                android:layout_toRightOf="@id/textView15"
+                android:background="@drawable/back"
+                android:text="pld"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView18"
+                android:layout_toRightOf="@id/textView13"
+                android:background="@drawable/back"
+                android:text="age"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView5"
+                android:layout_toRightOf="@id/textView10"
+                android:background="@drawable/back"
+                android:text="cob"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView22"
+                android:layout_toRightOf="@id/textView17"
+                android:background="@drawable/back"
+                android:text="goals"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView11"
+                android:layout_toRightOf="@id/textView12"
+                android:background="@drawable/back"
+                android:text="national"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back"
+                android:text="Country of Birth"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView12"
+                android:background="@drawable/back"
+                android:text="Age"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView13"
+                android:background="@drawable/back"
+                android:text="Date of Birth"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView15"
+                android:background="@drawable/back"
+                android:text="Appearances"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView17"
+                android:gravity="center"
+                android:text="Official Jersey"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView14"
+                android:background="@drawable/back"
+                android:text="Premier League Debut"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView10"
+                android:background="@drawable/back"
+                android:text="National Team"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView16"
+                android:background="@drawable/back"
+                android:text="Goals"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/button5"
@@ -334,6 +344,7 @@
                 android:layout_width="200dp"
                 android:layout_height="175dp"
 
+                android:layout_below="@id/textView24"
                 android:layout_centerInParent="true"
                 android:paddingBottom="20dp"
                 app:srcCompat="@drawable/homekit" />

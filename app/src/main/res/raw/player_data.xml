@@ -8,6 +8,7 @@
 <flagimg>spain.jpg</flagimg>
     <imageonclick>degealeft.png</imageonclick>
     <jerseyno>1</jerseyno>
+    <ratings>⭐⭐⭐⭐⭐</ratings>
     <url>https://www.youtube.com/watch?v=82Os6JcEOdw</url>
     <birth>Spain</birth>
     <nation>Spain</nation>
@@ -40,6 +41,7 @@
 <flagimg>england.jpg</flagimg>
     <imageonclick>maguireleft.png</imageonclick>
     <jerseyno>5</jerseyno>
+    <ratings>⭐⭐⭐⭐⭐</ratings>
     <url>https://www.youtube.com/watch?v=nOz_z531RNw</url>
     <birth>England</birth>
     <nation>England</nation>
@@ -72,6 +74,7 @@
 <flagimg>england.jpg</flagimg>
     <imageonclick>youngleft.png</imageonclick>
     <jerseyno>18</jerseyno>
+    <ratings>⭐⭐</ratings>
     <url>https://www.youtube.com/watch?v=DVlDxsxYS6g</url>
     <birth>England</birth>
     <nation>England</nation>
@@ -104,6 +107,7 @@
 <flagimg>france.jpg</flagimg>
     <imageonclick>pogbaleft.png</imageonclick>
     <jerseyno>8</jerseyno>
+    <ratings>⭐⭐⭐⭐⭐</ratings>
     <url>https://www.youtube.com/watch?v=9NzR9nhspHY</url>
     <birth>France</birth>
     <nation>France</nation>
@@ -136,6 +140,7 @@
 <flagimg>scotland.png</flagimg>
     <imageonclick>mctominayleft.png</imageonclick>
     <jerseyno>39</jerseyno>
+    <ratings>⭐⭐⭐</ratings>
     <url>https://www.youtube.com/watch?v=cpgpj5AorMI</url>
     <birth>England</birth>
     <nation>Scotland</nation>
@@ -168,6 +173,7 @@
 <flagimg>france.jpg</flagimg>
     <imageonclick>martialleft.png</imageonclick>
     <jerseyno>9</jerseyno>
+    <ratings>⭐⭐⭐⭐</ratings>
     <url>https://www.youtube.com/watch?v=bs8GaP0S0E4</url>
     <birth>France</birth>
     <nation>France</nation>
@@ -200,6 +206,7 @@
 <flagimg>england.jpg</flagimg>
     <imageonclick>rashfordleft.png</imageonclick>
     <jerseyno>10</jerseyno>
+    <ratings>⭐⭐⭐⭐</ratings>
     <url>https://www.youtube.com/watch?v=MVsMPJM2AjQ</url>
     <birth>England</birth>
     <nation>England</nation>
@@ -232,6 +239,7 @@
         <flagimg>wales.png</flagimg>
         <imageonclick>danieljamesleft.png</imageonclick>
         <jerseyno>21</jerseyno>
+        <ratings>⭐⭐⭐</ratings>
         <url>https://www.youtube.com/watch?v=Afvin1aQzOE</url>
         <birth>Wales</birth>
         <nation>Wales</nation>
@@ -264,6 +272,7 @@
         <flagimg>brazil.png</flagimg>
         <imageonclick>fredleft.png</imageonclick>
         <jerseyno>17</jerseyno>
+        <ratings>⭐⭐⭐</ratings>
         <url>https://www.youtube.com/watch?v=W8Zn9RcQHBU</url>
         <birth>Brazil</birth>
         <nation>Brazil</nation>
@@ -296,6 +305,7 @@
         <flagimg>england.jpg</flagimg>
         <imageonclick>bissakaleft.png</imageonclick>
         <jerseyno>29</jerseyno>
+        <ratings>⭐⭐⭐⭐</ratings>
         <url>https://www.youtube.com/watch?v=qgjPbw2--aU</url>
         <birth>England</birth>
         <nation>England</nation>
@@ -328,6 +338,7 @@
         <flagimg>brazil.png</flagimg>
         <imageonclick>pereiraleft.png</imageonclick>
         <jerseyno>15</jerseyno>
+        <ratings>⭐⭐</ratings>
         <url>https://www.youtube.com/watch?v=oFQZpSEt90w</url>
         <birth>Belgium</birth>
         <nation>Brazil</nation>

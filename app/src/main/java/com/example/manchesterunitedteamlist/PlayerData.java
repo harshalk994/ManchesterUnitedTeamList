@@ -36,12 +36,13 @@ public class PlayerData implements Serializable {
     private String yellowc;
     private String redc;
     private String weburl;
+    private String ratings;
 
     public PlayerData(String image, String name,  String position, String country, String id, String imageOnClick,
                       String jerseyNo, String url, String cob, String nteam, String age, String dob, String debut,
                       String apps, String goals, String kit, String buy, String champion, String wins, String losses,
                       String cleans, String og, String assists, String passes, String crosses, String through,
-                      String fouls, String yellowc, String redc, String weburl) {
+                      String fouls, String yellowc, String redc, String weburl, String ratings) {
         this.id = id;
         this.name = name;
         this.image = image;
@@ -72,6 +73,7 @@ public class PlayerData implements Serializable {
         this.yellowc = yellowc;
         this.redc = redc;
         this.weburl = weburl;
+        this.ratings = ratings;
     }
 
     public String getId() {
@@ -312,5 +314,13 @@ public class PlayerData implements Serializable {
 
     public void setWeburl(String weburl) {
         this.weburl = weburl;
+    }
+
+    public String getRatings() {
+        return ratings;
+    }
+
+    public void setRatings(String ratings) {
+        this.ratings = ratings;
     }
 }
