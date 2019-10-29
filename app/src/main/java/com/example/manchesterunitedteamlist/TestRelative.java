@@ -101,9 +101,15 @@ public class TestRelative extends AppCompatActivity {
         buyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent2 = new Intent(Intent.ACTION_VIEW, Uri.parse(data.getBuy()));
+               Intent intent2 = new Intent(TestRelative.this, ShopWebView.class);
+               Bundle bundle2 = new Bundle();
+               bundle2.putSerializable("Shop data", data);
 
+                intent2.putExtras(bundle2);
                 startActivity(intent2);
+                // Intent intent2 = new Intent(Intent.ACTION_VIEW, Uri.parse(data.getBuy()));
+
+                //startActivity(intent2);
             }
         });
 
