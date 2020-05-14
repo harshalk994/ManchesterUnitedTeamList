@@ -23,7 +23,7 @@
 <p align="center"><b>Activity 1</b></p>
           <p align="center"><b>Splash Screen</b></p><br>
   <b>A) User Interface:</b><br>
-  ![](https://github.com/harshalk994/ManchesterUnitedTeamList/blob/master/app/Images/logo.jpg)
+  ![](images/logo.jpg)
   
   
 B) Functionality:
