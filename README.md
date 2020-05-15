@@ -137,9 +137,9 @@
 <p align="center"><b>Additional Specifications</b></p>
   <p>        
   <b>A) Youtube Integration</b><br>
- •	User Interface:<br>
+          •	<b>User Interface:</b><br>
             <center><img src="images/youtube.jpg" align="centre" height=600 width=400></img></center><br>
-            •	Personal Contribution:  <br>
+            •	<b>Personal Contribution:</b>  <br>
 o	The Play Video Button in Activity 3 will redirect the user to the youtube app and will play a video of the respective player.<br>
 o	The links of the youtube videos are all parsed through the XML parser and declared in the XML file (player_data.xml).
 </p>
@@ -147,14 +147,14 @@ o	The links of the youtube videos are all parsed through the XML parser and decl
           <b>B)	Title Bar: </b><br>
 •	User Interface: <br>
            <center><img src="images/title bar.png" align="centre" height=75 width=500></img></center><br>
-           •	Personal Contribution: <br>
+           •	<b>Personal Contribution:</b> <br>
 o	The title bar consists of a relative layout in which I have added a Text View and 3 Image Views (Addidas logo, Manchester United Logo, Aon Logo). I have aligned the layouts as shown in the screenshot using the align functionalities available under the relative layout for eg, layout_toRightof, layout_toLeftof etc. The title bar gives a good look and feel to the app. <br>
 
 <p>
           <b>C) Logo/App Icon</b><br>
           •	User Interface:<br>
           <center><img src="images/app icon.png" align="centre" height=75 width=75></img></center><br>
-          •	Personal Contribution: <br>
+          •	<b>Personal Contribution:</b> <br>
 o	  Changed the app icon in the AndroidManifest.xml file. The   
   logo image is shown above. Changed the image for
   android:icon and android:roundIcon with above image.
